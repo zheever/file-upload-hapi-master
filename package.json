@@ -1,0 +1,29 @@
+{
+  "name": "file-upload-hapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "boom": "^7.2.0",
+    "del": "^2.2.2",
+    "hapi": "^17.5.1",
+    "hapi-server-session": "^4.2.1",
+    "lokijs": "^1.4.2",
+    "mysql2": "^1.5.3",
+    "require-directory": "^2.1.1",
+    "sequelize": "^4.37.10",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/boom": "^7.2.0",
+    "@types/del": "^3.0.1",
+    "@types/hapi": "^17.0.7",
+    "@types/lokijs": "^1.5.2",
+    "@types/uuid": "^3.4.3",
+    "typescript": "^2.8.1"
+  }
+}
